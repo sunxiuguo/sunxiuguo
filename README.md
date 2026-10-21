@@ -44,6 +44,7 @@ All three are early-stage, MIT-licensed tools with runnable synthetic examples. 
 
 Merged work in projects maintained by others. These links show the actual changes and review history, not ownership of the upstream projects.
 
+- **[Vercel AI SDK](https://github.com/vercel/ai)** · Contributed the original fix for duplicate local tool execution from identical approval replays in [#23525](https://github.com/vercel/ai/pull/23525). Maintainer gr2m extended it and merged [#23791](https://github.com/vercel/ai/pull/23791) with co-author credit on October 21, 2026.
 - **[DSH GenUI](https://github.com/omdsh-dev/dsh-genui)** · [Preserve table row details/state after filtering](https://github.com/omdsh-dev/dsh-genui/pull/348), [scale plot dragging to rendered width](https://github.com/omdsh-dev/dsh-genui/pull/350), [scope DOM-fence observer maintenance](https://github.com/omdsh-dev/dsh-genui/pull/341), and [opt-in plain-text copy preview](https://github.com/omdsh-dev/dsh-genui/pull/343). Merged October 21, 2026.
 - **[SQLFluff](https://github.com/sqlfluff/sqlfluff)** · [Parse Snowflake date parts by function argument position](https://github.com/sqlfluff/sqlfluff/pull/8718). Merged October 20, 2026.
 
