@@ -14,6 +14,8 @@ I build inspectable developer tools and contribute fixes upstream. My current pr
 
 For teams combining XML reports in CI. Python 3.12+ with Expat 2.6.0+.
 
+[Listed in awesome-testing under Test Report Diagnostics](https://github.com/TheJambo/awesome-testing/blob/1dd0a3270b7465af010207692c0a8ea63866c2fe/README.md#test-report-diagnostics).
+
 [Broken/control demo](https://github.com/sunxiuguo/junit-collision-check#try-the-failure-in-30-seconds) · [pytest CI integration](https://github.com/sunxiuguo/junit-collision-check/tree/master/examples/pytest-ci) · [Input/output contract](https://github.com/sunxiuguo/junit-collision-check/blob/master/docs/contract.md)
 
 *A collision-free result is not a passing test run. Keep the test runner's failure gate.*
@@ -44,7 +46,7 @@ All three are early-stage, MIT-licensed tools with runnable synthetic examples. 
 
 Merged work in projects maintained by others. These links show the actual changes and review history, not ownership of the upstream projects.
 
-- **[Vercel AI SDK](https://github.com/vercel/ai)** · Contributed the original fix for duplicate local tool execution from identical approval replays in [#23525](https://github.com/vercel/ai/pull/23525). Maintainer gr2m extended it and merged [#23791](https://github.com/vercel/ai/pull/23791) with co-author credit on October 21, 2026.
+- **[Vercel AI SDK](https://github.com/vercel/ai)** · Contributed the original fix for duplicate local tool execution from identical approval replays in [#23525](https://github.com/vercel/ai/pull/23525). Maintainer gr2m extended it and merged [#23791](https://github.com/vercel/ai/pull/23791) with co-author credit on October 21, 2026. Released in [ai@7.0.149](https://github.com/vercel/ai/releases/tag/ai%407.0.149) on October 22.
 - **[DSH GenUI](https://github.com/omdsh-dev/dsh-genui)** · [Preserve table row details/state after filtering](https://github.com/omdsh-dev/dsh-genui/pull/348), [scale plot dragging to rendered width](https://github.com/omdsh-dev/dsh-genui/pull/350), [scope DOM-fence observer maintenance](https://github.com/omdsh-dev/dsh-genui/pull/341), and [opt-in plain-text copy preview](https://github.com/omdsh-dev/dsh-genui/pull/343). Merged October 21, 2026.
 - **[SQLFluff](https://github.com/sqlfluff/sqlfluff)** · [Parse Snowflake date parts by function argument position](https://github.com/sqlfluff/sqlfluff/pull/8718). Merged October 20, 2026.
 
