@@ -42,6 +42,16 @@ For developers adding regression checks to async workflows. Python 3.10+.
 
 All three are early-stage, MIT-licensed tools with runnable synthetic examples. They run locally without API keys or a hosted service. Start from each repository's source or GitHub release instructions; no npm/PyPI publication is assumed.
 
+## Experimental conversational UI
+
+**[DSH A2UI](https://github.com/sunxiuguo/dsh-a2ui)** · Development preview **0.1.0-alpha.13**. An independent DeepSeek Harness plugin that renders A2UI forms and sends their actions into the next conversation turn.
+
+For developers exploring conversational interfaces. The published plugin targets a bounded A2UI v0.9/v0.9.1 path; full protocol coverage and live-model workflows are not certified.
+
+[No-key agent-loop walkthrough](https://github.com/sunxiuguo/dsh-a2ui/blob/a8744445f4475c5a0fceb32a018a00617a954038/docs/synthetic-loop.md) · [Native Web-host evidence and screenshots](https://github.com/sunxiuguo/dsh-a2ui/blob/a8744445f4475c5a0fceb32a018a00617a954038/docs/full-host-acceptance.md)
+
+The walkthrough uses a scripted model and jsdom. Separately, [native-host run 40092097281](https://github.com/sunxiuguo/dsh-a2ui/actions/runs/40092097281) passed on October 24, 2026 at source [`a8bb06d8`](https://github.com/sunxiuguo/dsh-a2ui/commit/a8bb06d8acdfdc9bcffb005fd34a378ec741c312) (alpha.8): two isolated sessions, action retry, cancellation and graceful restart without replaying historical actions. That result covers the exact synthetic scenario, not every later version or a live model.
+
 ## Selected upstream contributions
 
 Merged work in projects maintained by others. These links show the actual changes and review history, not ownership of the upstream projects.
