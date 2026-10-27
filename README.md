@@ -4,7 +4,7 @@
 
 I build inspectable developer tools and contribute fixes upstream. My current projects help make subtle regressions visible: duplicate test identities, lost approval state, and calls that do not overlap as intended.
 
-[Explore the tools](#choose-a-tool) · [See merged contributions](#selected-upstream-contributions) · [Report a reproducible problem](#working-with-these-projects)
+[Explore the tools](#choose-a-tool) · [See upstream contributions](#selected-upstream-contributions) · [Report a reproducible problem](#working-with-these-projects)
 
 ## Choose a tool
 
@@ -54,8 +54,10 @@ The walkthrough uses a scripted model and jsdom. Separately, [native-host run 40
 
 ## Selected upstream contributions
 
-Merged work in projects maintained by others. These links show the actual changes and review history, not ownership of the upstream projects.
+Merged fixes and acknowledged regression feedback in projects maintained by others. These links show the actual changes and review history, not ownership of the upstream projects.
 
+- **[mloda](https://github.com/mloda-ai/mloda), October 26, 2026** · Contributed the fix for overridden prefix patterns in name binding and subtype resolution in [#2340](https://github.com/mloda-ai/mloda/pull/2340). Maintainers incorporated it through merged [#2352](https://github.com/mloda-ai/mloda/pull/2352), [preserving the commits and authorship](https://github.com/mloda-ai/mloda/pull/2340#issuecomment-6417012804); #2340 itself was closed without merging.
+- **[DSH GenUI](https://github.com/omdsh-dev/dsh-genui), October 26, 2026** · Supplied [Mermaid node-content regression counterexamples](https://github.com/omdsh-dev/dsh-genui/issues/366#issuecomment-6391402626), acknowledged in the upstream fix [#374](https://github.com/omdsh-dev/dsh-genui/pull/374) and its [changelog](https://github.com/omdsh-dev/dsh-genui/blob/bcde2e31131836dbee264ea533ef18de8a311bb5/CHANGELOG.md). This was regression feedback, not authorship of that fix.
 - **[Vercel AI SDK](https://github.com/vercel/ai)** · Contributed the original fix for duplicate local tool execution from identical approval replays in [#23525](https://github.com/vercel/ai/pull/23525). Maintainer gr2m extended it and merged [#23791](https://github.com/vercel/ai/pull/23791) with co-author credit on October 21, 2026. Released in [ai@7.0.149](https://github.com/vercel/ai/releases/tag/ai%407.0.149) on October 22.
 - **[DSH GenUI](https://github.com/omdsh-dev/dsh-genui), October 23, 2026** · Merged contributions for [slider display/submission precision](https://github.com/omdsh-dev/dsh-genui/pull/353), [safe table source links](https://github.com/omdsh-dev/dsh-genui/pull/357), [native galleries](https://github.com/omdsh-dev/dsh-genui/pull/359), and [explicit sidechat surfaces](https://github.com/omdsh-dev/dsh-genui/pull/360). Native Desktop link navigation remains unverified; sidechat delivery still depends on [Better Sidebar #1033](https://github.com/omdsh-dev/DSH-better-sidebar/pull/1033). These merges do not establish a release or user adoption.
 - **[DSH GenUI](https://github.com/omdsh-dev/dsh-genui)** · [Preserve table row details/state after filtering](https://github.com/omdsh-dev/dsh-genui/pull/348), [scale plot dragging to rendered width](https://github.com/omdsh-dev/dsh-genui/pull/350), [scope DOM-fence observer maintenance](https://github.com/omdsh-dev/dsh-genui/pull/341), and [opt-in plain-text copy preview](https://github.com/omdsh-dev/dsh-genui/pull/343). Merged October 21, 2026.
